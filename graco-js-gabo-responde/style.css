@@ -1,0 +1,42 @@
+h1, h2, h3, p {
+    margin: 0;
+}
+
+/* 
+truquito para ver todas las etiquetas html
+* {
+    outline: 1px solid green;
+} 
+*/
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: crimson;
+    padding: 3.5rem 1rem;
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    padding: 3rem 2rem;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #aaa;
+    padding: 0.3rem 0.2rem;
+}
+
+input:focus {
+    outline: none;
+    border-bottom: 1px solid crimson;
+}

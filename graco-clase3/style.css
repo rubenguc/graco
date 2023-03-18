@@ -1,0 +1,10 @@
+.contenedor {
+    width: 800px;
+}
+
+.caja {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: inline-block;
+}
